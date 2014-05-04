@@ -7,7 +7,7 @@ Template Name: PencilCasePage
 <div id ="maincontent">
 	<div id="displaycontent">
 		<br>
-		<h4><?php get_breadcrumbs(); ?></h4>
+		<?php if (function_exists('blix_breadcrumbs')) blix_breadcrumbs(); ?>
 		<h1><?php the_title(); ?></h1>
 		<br>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -20,21 +20,29 @@ Template Name: PencilCasePage
 <?php get_footer(); ?>
 
 <style>
+body{
+
+	width: auto;
+}
+
 #maincontent{
 
 	background-color: #FCF9F5;
 	width: 95%;
-	height: 980px;
 	margin: auto;
 }
 
 #displaycontent{
 
 	width: 60%;
-	height: auto;
 	margin:auto;
 	background: #FCF9F5;
 	text-align: left;
+}
+
+#displaycontent a{
+
+	color: black;
 }
 
 ul.breadcrumbs {
