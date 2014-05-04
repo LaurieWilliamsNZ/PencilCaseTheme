@@ -142,7 +142,7 @@ margin:5px 0;
 a  {
 color:#FFFFFF;
 text-decoration: none;
-width:90px;
+width:100px;
 
 }
 
