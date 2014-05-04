@@ -1,0 +1,154 @@
+html, body { margin: 0; padding: 0; }
+#header{
+height:120px;
+width:60%;
+background:#067DB0;
+margin:0 auto;
+padding-top:0px;
+
+
+}
+#navlinks{
+line-height: 0px;
+vertical-align: top;
+height:50px;
+width:60%;
+background:#067DB0;
+margin:0 auto;
+
+
+}
+p {
+margin: 1em 0;
+}
+.col_left {
+vertical-align:top;
+width:220px;
+padding:0; }
+.col_right {
+vertical-align:top;
+width:220px;
+padding:0; }
+.document {
+width: 983px;
+text-align: left;
+clear:both;
+}
+.ym-wrapper {
+width: 983px;
+margin: auto;
+}
+.ym-gbox { padding: 10px; }
+.ym-gz-l {
+width: 100px;
+}
+html {
+
+}
+body {
+color: #7E9198;
+background: #fff;
+margin: 0; padding:0;
+text-align:center; font-family: 'Varela Round', Arial, Sans-serif regular;
+font-size:15px;
+line-height: 1.3em;
+}
+form {
+margin: 0;
+padding: 0;
+}
+p,td,div,h1,h2,h3,h4,h5,h6 {
+font-family: 'Varela Round', Arial, Sans-serif regular;
+color: #7E9198;
+line-height: 1.3em;
+}
+p,td {
+line-height: 1.3em;
+}
+p {
+font: 1em 'Varela Round', Arial, Sans-serif regular;
+color: #7E9198;
+line-height: 1.3em;
+}
+th {
+font-size:11px;
+line-height: 1.3em;
+}
+h1 {
+font: normal 48px McLaren, Arial, Sans-serif;
+color: #374146;
+margin: 5px 0;
+line-height: 1.3em;
+}
+h2 {
+font: normal 40px McLaren, Arial, Sans-serif;
+color: #374146;
+margin: 5px 0;
+margin: 5px 0;
+line-height: 1.3em;
+}
+h3 {
+font: normal 34px McLaren, Arial, Sans-serif;
+color: #262626;
+margin: 4px 0;
+margin: 5px 0;
+line-height: 1.3em;
+}
+h4 {
+font: normal 25px McLaren, Arial, Sans-serif;
+color: #067db0;
+margin: 5px 0;
+line-height: 1.3em;
+}
+h5 {
+font: normal 16px McLaren, Arial, Sans-serif;
+color: #DB4C27;
+margin: 3px 0;
+margin: 5px 0;
+line-height: 1.3em;
+}
+h6 {
+font: normal 15px McLaren, Arial, Sans-serif;
+color: #067DB0;
+margin: 3px 0;
+margin: 5px 0;
+line-height: 1.3em;
+}
+a {
+color:#FFFFF;
+text-decoration: none;
+}
+a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
+text-decoration: underline;
+}
+a:visited {
+color: #DB4C27;
+}
+a:active {
+color: #DB4C27;
+text-decoration: underline;
+}
+a:hover {
+color: #DB4C27;
+text-decoration: underline;
+}
+ul { list-style: square; padding-left: 20px; }
+ul ul { padding-left:35px; }
+a > img { border-style:none;}
+a > img[border] { border-style:solid;}
+hr, .hr {
+clear:both;
+display:block;
+height:1px;
+border:none;
+border-top:solid 1px #ccc;
+margin:0.5em 0;
+}
+ul {
+margin-left: 0;
+}
+
+.page_item{
+display:inline-block;
+
+}
